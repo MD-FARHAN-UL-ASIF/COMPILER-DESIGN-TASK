@@ -2,21 +2,21 @@
 using namespace std;
 
 int main() {
-    string n1;
-    string n2;
-    cout << "enter n1"<<endl;
+    string x;
+    string y;
+    cout << "enter x"<<endl;
     cin>>n1;
-    cout << "enter n2"<<endl;
+    cout << "enter y"<<endl;
     cin>>n2;
-   string str_inp1(n1);
-   string str_inp2(n2);
+   string str_inp1(x);
+   string str_inp2(y);
 
 cout<<"String 1:"<<str_inp1<<endl;
 cout<<"String 2:"<<str_inp2<<endl;
 int res = str_inp1.compare(str_inp2);
-
+     cout<<endl;
     if (res == 0)
-        cout << "\nBoth the input strings are same." << endl;
+        cout << "Both the input strings are same" << endl;
     else 
-        cout << "The strings are not same\n.";
+        cout << "Strings are not same"<<endl;
 }
