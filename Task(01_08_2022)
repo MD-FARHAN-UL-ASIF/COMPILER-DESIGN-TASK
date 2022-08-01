@@ -1,0 +1,31 @@
+#include<iostream>
+using namespace std;
+
+
+char first(string str, int i=0)
+{
+
+    if(str[i]=='\0'){
+    return 0;
+    }
+    if(islower(str[i])){
+        return str[i];
+    return first(str,i+1);
+    }
+
+    }
+
+int main()
+{
+  cout<<"Production of A  : ";
+  string str;
+  cin>>str;
+  char c=first(str);
+  if(c==0){
+    cout<<"No First";
+  }
+  else{
+    cout<<"First of A : "<<c<<endl;
+  }
+  return 0;
+}
