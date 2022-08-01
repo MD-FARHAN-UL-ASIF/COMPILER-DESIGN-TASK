@@ -5,9 +5,9 @@ int main() {
     string x;
     string y;
     cout << "enter x"<<endl;
-    cin>>n1;
+    cin>>x;
     cout << "enter y"<<endl;
-    cin>>n2;
+    cin>>y;
    string str_inp1(x);
    string str_inp2(y);
 
